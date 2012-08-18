@@ -17,6 +17,7 @@
 # Ignorar otros archivos innecesarios
 doc/
 *.swp
+*.bak
 *~
 .project
 .DS_Store
