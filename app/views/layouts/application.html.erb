@@ -4,7 +4,7 @@
 	  <meta charset="UTF-8" />
 	  <link rel="shortcut icon" href="/assets/app-icon.png" />
 	  <%= csrf_meta_tags %>
-    <title>Control App | <%= yield(:title) %></title>
+    <title> <%= full_title(yield(:title)) %> </title>
     
 
     <%= stylesheet_link_tag    "application", media: "all" %>
