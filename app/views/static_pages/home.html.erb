@@ -13,18 +13,18 @@
   <div class="span4">
     <h3>Acerca de ...</h3>
     <p>Conozca más sobre quienes somos y a que nos dedicamos </p>
-    <p> <%= link_to "Ver más >>" , about_path, :class => "btn" %> </p>
+    <p> <%= link_to raw("Ver más &raquo;") , about_path, :class => "btn" %> </p>
   </div>
   
   <div class="span4">
     <h3>Contacto</h3>
     <p>Mandenos todas sus sugerencias y comentarios </p>
-    <p><%= link_to "Ver más >>" , contact_path, :class => "btn" %> </p>
+    <p><%= link_to raw("Ver más &raquo;") , contact_path, :class => "btn" %> </p>
   </div>
   <div class="span4">
     <h3>Noticias</h3>
     <p>Enterese de las últimas noticias que ponemos a su disposición.</p>
-    <p><%= link_to "Ver más &raquo;" , news_path, :class => "btn" %> </p>
+    <p><%= link_to raw("Ver más &raquo;") , news_path, :class => "btn" %> </p>
   </div>
 </div>
 <!-- %= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' % -->
