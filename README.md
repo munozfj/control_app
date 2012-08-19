@@ -15,3 +15,5 @@ Ruby Standard Library: http://www.ruby-doc.org/stdlib/
 
 Rails Guides entry on the asset pipeline: http://guides.rubyonrails.org/asset_pipeline.html
 
+Free icons for personal use: http://www.iconarchive.com
+
