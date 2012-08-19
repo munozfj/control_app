@@ -1,14 +1,30 @@
 <header class="navbar navbar-fixed-top">
  <div class="navbar-inner">
     <div class="container">
-      <%= link_to "control app", root_path, id: "logo" %>
+    
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      
+      <%= link_to "Control App", root_path, class: "brand" %>
+      <div class="nav-collapse">
+            <ul class="nav">
+              <li><%= link_to "Inicio",   root_path   %></li>
+              <li><%= link_to "Ayuda",    help_path   %></li>
+              <li><%= link_to "Ingresar", '#' %></li>
+            </ul>
+      </div><!--/.nav-collapse -->
+          
+      <!-- %= link_to "Control App", root_path, id: "logo" %>
       <nav>
         <ul class="nav pull-right">
           <li><%= link_to "Inicio",   root_path   %></li>
           <li><%= link_to "Ayuda",    help_path   %></li>
           <li><%= link_to "Ingresar", '#' %></li>
         </ul>
-      </nav>
+      </nav -->
     </div>
   </div>
 </header>
